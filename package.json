@@ -1,5 +1,5 @@
 {
-  "name": ".",
+  "name": "my_class_test",
   "version": "0.0.1",
   "description": ". initialised with create-express-typescript-application.",
   "main": "src/index.ts",
@@ -23,15 +23,22 @@
     "@typescript-eslint/parser": "^4.33.0",
     "eslint": "^7.32.0",
     "nodemon": "^2.0.22",
-    "ts-node": "^9.1.1",
-    "typescript": "^4.9.5"
+    "sequelize-cli": "^6.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
   },
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
     "env-cmd": "^10.1.0",
     "express": "^4.21.2",
     "fs": "^0.0.1-security",
     "helmet": "^4.6.0",
-    "morgan": "^1.10.0"
+    "joi": "^17.13.3",
+    "joi-to-typescript": "^4.15.0",
+    "morgan": "^1.10.0",
+    "pg": "^8.13.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.5"
   }
 }
